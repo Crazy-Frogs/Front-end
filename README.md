@@ -1,4 +1,4 @@
-# SESI-js-exercises
+# Front-end
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Crazy-Frogs/Front-end?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/Crazy-Frogs/Front-end?style=for-the-badge)
@@ -6,48 +6,48 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Crazy-Frogs/Front-end?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Crazy-Frogs/Front-end?style=for-the-badge)
 
-> Repositório de exercícios do curso de JavaScript do SESI. O projeto envolve exercícios práticos para aplicação de conceitos de JavaScript.
+> Repositório destinado ao desenvolvimento e aprimoramento de projetos front-end. Aqui você encontrará exercícios práticos e projetos voltados para a criação de interfaces web.
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você possui as Extensões de HTML e CSS instaladas.
-- Você tem uma máquina que suporta VsCode (Windows, Linux ou macOS).
-- É recomendado ter um conhecimento básico de JavaScript.
+- Você possui as extensões de HTML, CSS e JavaScript instaladas.
+- Você tem uma máquina que suporta VSCode (Windows, Linux ou macOS).
+- É recomendado ter um conhecimento básico de HTML, CSS e JavaScript.
 
-## 🚀 Instalando SESI-js-exercises
+## 🚀 Instalando o Front-end
 
-Para instalar o **SESI-js-exercises**, siga estas etapas:
+Para instalar o **Front-end**, siga estas etapas:
 
 ### Linux e macOS:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/JoaoNascimento1802/SESI-js-exercises.git
+    git clone https://github.com/Crazy-Frogs/Front-end.git
     ```
 
 ### Windows:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/JoaoNascimento1802/SESI-js-exercises.git
+    git clone https://github.com/Crazy-Frogs/Front-end.git
     ```
 
 2. Navegue até o diretório do projeto:
     ```bash
-    cd SESI-js-exercises
+    cd Front-end
     ```
 
 3. Abra o projeto no VSCode ou no editor de sua preferência.
 
-## ☕ Usando SESI-js-exercises
+## ☕ Usando o Front-end
 
-Para usar **SESI-js-exercises**, basta acessar os arquivos JavaScript e executá-los localmente no seu navegador, ou configurar um ambiente de execução como Node.js.
+Para usar **Front-end**, basta abrir os arquivos HTML no navegador ou configurar um ambiente local com um servidor como o Live Server no VSCode.
 
-## 📫 Contribuindo para SESI-js-exercises
+## 📫 Contribuindo para o Front-end
 
-Para contribuir com **SESI-js-exercises**, siga estas etapas:
+Para contribuir com **Front-end**, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -64,13 +64,15 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#" title="https://github.com/JoaoNascimento1802">
+      <a href="#" title="https://github.com/Crazy-Frogs">
         <img src="https://i.pinimg.com/736x/6d/83/b9/6d83b96e6f062c57dcbeb3e325ebcd10.jpg" width="100px;" alt="Foto do Emanuel no GitHub"/><br>
         <sub>
           <b>Emanuel</b>
         </sub>
       </a>
     </td>
+  </tr>
+</table>
 
 ## 📝 Licença
 
