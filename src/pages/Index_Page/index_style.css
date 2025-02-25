@@ -1,0 +1,37 @@
+body{
+    font-family: "Georgia" serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#button1{
+    border-radius: 20px;
+    background-color: #003D4D;
+    font-family: "Geologica", serif;
+    width: 90px;
+    
+}
+
+#button2{
+    border-radius: 20px;
+    background-color: #003D4D;
+    font-family: "Geologica", serif;
+    width: 65px;
+    
+}
+
+.header1{
+    background-color: #FFF8CC;
+    
+}
+
+#perfil1{
+    width: 50px;
+    float: right;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+#logo1{
+    
+}
