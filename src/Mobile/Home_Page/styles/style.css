@@ -1,0 +1,217 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAD9;
+}
+
+.container {
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+.website-section {
+    background-color: #7015E3;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.website-content {
+    text-align: left;
+}
+
+.website-content h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.website-button {
+    background-color: white;
+    color: #7015E3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.website-section img {
+    width: 120px;
+    height: auto;
+    z-index: 1;
+}
+
+/* Círculo branco atrás da imagem */
+.website-section::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.category-section {
+    margin-bottom: 20px;
+}
+
+.category-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.category-icons {
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Adicionado para posicionamento relativo */
+}
+
+.category-item {
+    text-align: center;
+    position: relative; /* Adicionado para posicionamento relativo */
+}
+
+.category-item img:first-child { /* Circulo Branco */
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; /* Garante que fique acima do retângulo */
+}
+
+.category-item img:nth-child(2) { /* Vetores */
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    z-index: 2; /* Garante que fique acima do retângulo */
+}
+
+.category-item p {
+    margin: 0;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.category-buttons img {
+    width: 23%;
+}
+
+.consultas-section {
+    margin-bottom: 20px;
+}
+
+.consultas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.consultas-header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.consultas-header a {
+    color: #7015E3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.consulta-card {
+    background-color: #FEEBDD;
+    color: #333;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.consulta-card img:first-child {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.consulta-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.consulta-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.consulta-info p {
+    margin: 5px 0 10px;
+    font-size: 14px;
+}
+
+.consulta-details {
+    display: flex;
+    justify-content: left;
+    font-size: 14px;
+}
+
+.consulta-details img {
+    margin-right: 5px;
+}
+
+.consulta-card .arrow-right {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #FFFAD9;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) saturate(100%) invert(67%) sepia(85%) saturate(3015%) hue-rotate(248deg) brightness(101%) contrast(97%);
+}
