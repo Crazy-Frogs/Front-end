@@ -1,0 +1,168 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+.nav .active {
+    color: #A97BEB;
+    font-weight: bold;
+    border-bottom: 2px solid #A97BEB;
+    padding-bottom: 5px;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.button {
+    background: #A97BEB;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+}
+
+.hero {
+    margin-right: 750px;
+    margin-top: 80px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 64px;
+    color: #333;
+    font-family: "Figma Hand", cursive;
+}
+
+.hero button {
+    background: #A97BEB;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+.info-section {
+    background: #C9A8F5;
+    padding: 40px;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    max-width: 90%;
+}
+
+.info-text {
+    width: 55%;
+}
+
+.info-text h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.info-text p {
+    font-size: 18px;
+}
+
+.info-image {
+    width: 40%;
+    text-align: center;
+}
+
+.info-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    max-width: 90%;
+}
+
+.card {
+    background: #C9A8F5;
+    padding: 30px;
+    border-radius: 15px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.card h3 {
+    font-family: "Figma Hand", cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 16px;
+    color: black;
+}
+
+.card button {
+    background: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card img {
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
