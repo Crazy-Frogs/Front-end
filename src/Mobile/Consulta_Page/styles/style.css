@@ -1,0 +1,151 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFAD9;
+    text-align: center; /* Adicionado para centralizar o conteúdo */
+}
+
+.container {
+    max-width: 500px; /* Aumentado para 500px, conforme solicitado */
+    margin: 50px auto; /* Mantém a margem superior/inferior e centraliza */
+    padding: 20px;
+}
+
+/* Estilizando o card */
+.card, .consulta-card { /* Combinando os estilos do card */
+    position: relative; /* Adicionado para o card-bg funcionar */
+    width: 100%; /* Garante que o card ocupe toda a largura disponível */
+    max-width: 500px; /* Mantém a largura máxima */
+    background-color: #FFF7E6;
+    padding: 40px 20px; /* Aumentei o padding para o card grande */
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px; /* Mantive a altura do card grande */
+    margin: 0 auto; /* Centraliza o card */
+}
+
+/* Background do Card Grande */
+.card-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+/* Conteúdo dentro do card */
+.card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Títulos dentro do card */
+.card h2, .consulta-title { /* Combinando os estilos dos títulos */
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left; /* Alinhando os títulos à esquerda */
+    font-size: 22px; /* Ajustando o tamanho do titulo principal */
+    font-weight: bold; /* Deixando o titulo principal em negrito */
+}
+
+/* Inputs */
+.consulta-input, select, textarea { /* Combinando os estilos de inputs */
+    width: 100%;
+    max-width: 90%; /* Mantém alinhado à esquerda */
+    padding: 10px;
+    border: 2px solid #7015E3; /* Borda roxa */
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 5px; /* Ajustando a radius para inputs dentro do form-group */
+    border: 1px solid #ccc; /* Ajustando a borda para inputs dentro do form-group */
+    font-size: 14px; /* Ajustando o tamanho da fonte para inputs dentro do form-group */
+}
+
+/* Caixa de texto para o motivo */
+.consulta-textarea, textarea { /* Combinando os estilos da textarea */
+    height: 80px; /* Ajustei a altura */
+    resize: none;
+    height: 50px; /* Reduzindo a altura para o form group */
+}
+
+/* Botão "Próximo" */
+.consulta-botao, .consulta-btn { /* Combinando os estilos dos botões */
+    margin-top: 50px; /* Mais espaço abaixo */
+    width: 100%;
+    max-width: 90%;
+    padding: 15px;
+    background-color: #7015E3;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    display: flex; /* Adicionado para o botão com imagem */
+    justify-content: center; /* Adicionado para o botão com imagem */
+    align-items: center; /* Adicionado para o botão com imagem */
+    position: relative; /* Adicionado para o botão com imagem */
+    background: transparent; /* Adicionado para o botão com imagem */
+    margin-top: 10px; /* Adicionado para o botão com imagem */
+}
+
+.consulta-btn img {
+    width: 100%;
+}
+
+.consulta-btn span {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #FFFAD9;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 440px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Grupos de Formulário */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
