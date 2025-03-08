@@ -23,7 +23,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 420px;
     margin: 0 auto;
 }
 
@@ -41,6 +40,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
 }
 
@@ -51,52 +51,46 @@ body {
     text-align: center;
 }
 
-.form-group {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: left;
-}
-
-label {
-    font-size: 16px;
+.consulta-subtitle {
+    font-size: 22px;
     font-weight: bold;
-    margin-bottom: 5px;
+    text-align: center;
 }
 
-select {
-    width: calc(100% - 22px);
-    padding: 10px;
-    border: 1px solid #ccc; /* Borda padrão */
-    border-radius: 10px;
+.consulta-text {
+    font-size: 14px;
+    text-align: center;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.consulta-input {
+    width: 90%;
+    padding: 12px; /* Aumentei o padding para melhorar a aparência */
+    border-radius: 10px; /* Aumentei o border-radius para combinar com o card */
     font-size: 16px;
     background-color: white;
-    box-sizing: border-box;
-    appearance: none; /* Remove a seta padrão */
-    -webkit-appearance: none; /* Remove a seta padrão no Safari e Chrome */
-    -moz-appearance: none; /* Remove a seta padrão no Firefox */
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%237015E3' d='M6 8l-5-5h10z'/%3E%3C/svg%3E"); /* Adiciona uma seta personalizada */
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%237015E3' d='M6 8l-5-5h10z'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
-    background-position: right 10px center; /* Posiciona a seta à direita */
-}
-
-textarea {
-    width: calc(100% - 22px);
-    padding: 10px;
-    border: 1px solid #ccc; /* Borda padrão */
-    border-radius: 10px;
-    font-size: 16px;
-    background-color: white;
+    background-position: right 10px center;
     box-sizing: border-box;
-    height: 80px;
-    resize: none;
 }
 
 .consulta-btn {
     margin-top: 20px;
-    width: 100%;
+    width: 90%;
     padding: 15px;
-    background-color: #7015E3;
+    background-color: transparent;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -108,7 +102,6 @@ textarea {
     justify-content: center;
     align-items: center;
     position: relative;
-    background: transparent;
 }
 
 .consulta-btn img {
@@ -120,6 +113,16 @@ textarea {
     font-size: 16px;
     font-weight: bold;
     color: white;
+}
+
+.consulta-voltar {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .footer {
